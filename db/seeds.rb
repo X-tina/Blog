@@ -3,5 +3,13 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Post.delete_all
+
+Post.create(title: 'First Post',
+        	text: %{Text_1})
+           
+Post.create(title: 'Second Post',
+        	text: %{Text_2})
+
+Post.create(title: 'Third Post',
+        	text: %{Text_3})
